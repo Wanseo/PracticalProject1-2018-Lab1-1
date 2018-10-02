@@ -48,6 +48,7 @@ public class Calculator {
 		// now we can do some action (method) in our object!
 		myCalulator.execute(args[0], args[1]);
 		
+		
 	}
 
 	/**
@@ -98,6 +99,13 @@ public class Calculator {
 		countForAnyCompution++;
 		localCount++;
 		return first * second;
+	}
+	
+	String message = "I am done";
+	
+	void printMessage(String message){
+		
+		System.out.print(message);
 	}
 
 	double divide(int first, int second) {
