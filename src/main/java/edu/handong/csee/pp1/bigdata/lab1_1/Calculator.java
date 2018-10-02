@@ -47,6 +47,7 @@ public class Calculator {
 
 		// now we can do some action (method) in our object!
 		myCalulator.execute(args[0], args[1]);
+		
 	}
 
 	/**
@@ -74,11 +75,11 @@ public class Calculator {
 	
 	/**
 	 * @param prefix
-	 * @param result
+	 * @param d
 	 * This method prints out computation result.
 	 */
-	void print(String prefix, int result) {
-		System.out.println(prefix + " " + result);
+	void print(String prefix, double d) {
+		System.out.println(prefix + " " + d);
 	}
 
 	int sum(int first, int second) {
